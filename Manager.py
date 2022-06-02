@@ -20,8 +20,8 @@ class Windows(Frame):
         self.init_window()
 
     def init_window(self):
-        self.master.title('Sisyphe采销闭合分析')
-        self.master.iconbitmap('D:\\VS py\\Sisyphe\\Source code\\PM Analyze\\Sisyphe.ico')
+        self.master.title('采销闭合分析')
+        self.master.iconbitmap('D:\\VS py\\Source code\\PM Analyze\\Sisyphe.ico')
         self.pack(fill=BOTH, expand=1)
         # 按钮
         stock_describe_button = Button(self, text='库存分析', command=stock_describe)
